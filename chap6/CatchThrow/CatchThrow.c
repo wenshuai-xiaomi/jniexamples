@@ -13,6 +13,7 @@ Java_CatchThrow_doit(JNIEnv *env, jobject obj)
         return;
     }
     (*env)->CallVoidMethod(env, obj, mid);
+	// when call into a java method, an exception happened.
     exc = (*env)->ExceptionOccurred(env);
     if (exc) {
         /* We don't do much with the exception, except that

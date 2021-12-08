@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libIntArray.so -o libIntArray.so CMakeFiles/IntArray.dir/IntArray.c.o 

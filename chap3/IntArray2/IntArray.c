@@ -7,6 +7,8 @@ Java_IntArray_sumArray(JNIEnv *env, jobject obj, jintArray arr)
 {
     jint *carr;
     jint i, sum = 0;
+
+	// 
     carr = (*env)->GetIntArrayElements(env, arr, NULL);
     if (carr == NULL) {
         return 0; /* exception occurred */

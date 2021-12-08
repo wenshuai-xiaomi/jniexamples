@@ -1,9 +1,12 @@
 class CatchThrow {
     private native void doit() 
         throws IllegalArgumentException;
+
     private void callback() throws NullPointerException {
         throw new NullPointerException("CatchThrow.callback");
+		//System.out.println("java function method");
     }
+
     public static void main(String args[]) {
         CatchThrow c = new CatchThrow();
         try {
@@ -12,6 +15,7 @@ class CatchThrow {
             System.out.println("In Java:\n\t" + e);
         }
     }
+
     static {
         System.loadLibrary("CatchThrow");
     }

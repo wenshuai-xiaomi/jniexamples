@@ -5,6 +5,7 @@
 JNIEXPORT void JNICALL 
 Java_InstanceFieldAccess_accessField(JNIEnv *env, jobject obj)
 {
+	// just using cached field id
     static jfieldID fid_s = NULL; /* cached field ID for s */
 
     jclass cls = (*env)->GetObjectClass(env, obj);

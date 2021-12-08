@@ -1,5 +1,5 @@
 public class Prog {
-    public static void main(String[] args) {
-         System.out.println("Hello World " + args[0]);
+    public static void greet(String name) {
+         System.out.println("Hello World 温帅 " + name);
     }
 }

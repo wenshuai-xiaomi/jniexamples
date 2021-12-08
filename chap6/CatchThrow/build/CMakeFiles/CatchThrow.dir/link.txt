@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libCatchThrow.so -o libCatchThrow.so CMakeFiles/CatchThrow.dir/CatchThrow.c.o 

@@ -1,3 +1,15 @@
 Example			Page #
 ------------------------------
 HelloWorld		11
+
+java -Djava.library.path=. HelloWorld
+Exception in thread "main" java.lang.UnsatisfiedLinkError: no HelloWorld in java.library.path
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1860)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:871)
+	at java.lang.System.loadLibrary(System.java:1124)
+	at HelloWorld.<clinit>(HelloWorld.java:7)
+
+java -Djava.library.path=. HelloWorld
+
+java -Djava.library.path=./build HelloWorld
+

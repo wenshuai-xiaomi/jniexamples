@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/ObjectArrayTest/ObjectArrayTest.c
+jni.h
+-
+stdio.h
+-
+ObjectArrayTest.h
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/ObjectArrayTest/ObjectArrayTest.h
+
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/ObjectArrayTest/ObjectArrayTest.h
+jni.h
+-
+
+/usr/lib/jvm/java-8-openjdk-amd64/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/usr/lib/jvm/java-8-openjdk-amd64/include/jni_md.h
+
+/usr/lib/jvm/java-8-openjdk-amd64/include/linux/jni_md.h
+

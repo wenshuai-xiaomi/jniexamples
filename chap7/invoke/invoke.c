@@ -1,4 +1,5 @@
 #include <jni.h>
+#include <stdlib.h>
 
 #define PATH_SEPARATOR ';' /* define it to be ':' on Solaris */
 #define USER_CLASSPATH "." /* where Prog.class is */

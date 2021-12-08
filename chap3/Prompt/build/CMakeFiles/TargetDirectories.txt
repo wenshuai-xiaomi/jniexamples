@@ -1,0 +1,3 @@
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/Prompt/build/CMakeFiles/edit_cache.dir
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/Prompt/build/CMakeFiles/rebuild_cache.dir
+/home/ws/code/opensource_wenshuai_branch/jniexamples/chap3/Prompt/build/CMakeFiles/Prompt.dir

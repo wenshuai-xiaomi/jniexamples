@@ -7,6 +7,7 @@ Java_IntArray_sumArray(JNIEnv *env, jobject obj, jintArray arr)
 {
     jint buf[10];
     jint i, sum = 0;
+	// not get the data directly from jara tye parameter
     (*env)->GetIntArrayRegion(env, arr, 0, 10, buf);
     for (i = 0; i < 10; i++) {
         sum += buf[i];

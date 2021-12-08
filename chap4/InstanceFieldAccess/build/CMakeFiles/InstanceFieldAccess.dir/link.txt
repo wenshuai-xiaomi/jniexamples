@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libInstanceFieldAccess.so -o libInstanceFieldAccess.so CMakeFiles/InstanceFieldAccess.dir/InstanceFieldAccess.c.o 

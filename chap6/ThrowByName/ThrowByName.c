@@ -2,6 +2,7 @@
 #include <jni.h>
 #include "ThrowByName.h"
 
+// create a unity
 void
 JNU_ThrowByName(JNIEnv *env, const char *name, const char *msg)
 {

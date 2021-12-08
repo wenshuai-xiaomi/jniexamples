@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libPrompt.so -o libPrompt.so CMakeFiles/Prompt.dir/Prompt.c.o 
